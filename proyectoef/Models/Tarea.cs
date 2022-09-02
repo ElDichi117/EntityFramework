@@ -5,19 +5,20 @@ namespace proyectoef.Models;
 
 public class Tarea
 {
-    [Key]
+    //[Key]
     public Guid TareaId { get; set; }
     //ForeigKey es la llave foranea
-    [ForeignKey("CategoriaId")]
+    //[ForeignKey("CategoriaId")]
     public Guid CategoriaId { get; set; }
-    [Required]
-    [MaxLength(200)]
+    //[Required]
+    //[MaxLength(200)]
+    public string Profesor { get; set; }
     public string Titulo { get; set; }
     public string Descripcion { get; set; } 
     public Prioridad PrioridadTarea { get; set; }
     public DateTime FechaCreacion { get; set; }
     public virtual Categoria Categoria { get; set; }
-    [NotMapped]
+    //[NotMapped]
     public string Resumen { get; set; }
 }
 
