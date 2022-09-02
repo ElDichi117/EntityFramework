@@ -53,3 +53,5 @@ C:\Users\ricar\Documents\PooPlatzi\ParteDos\EntityFramework(EF)\proyectoef\obj\D
 C:\Users\ricar\Documents\PooPlatzi\ParteDos\EntityFramework(EF)\proyectoef\obj\Debug\net6.0\proyectoef.pdb
 C:\Users\ricar\Documents\PooPlatzi\ParteDos\EntityFramework(EF)\proyectoef\obj\Debug\net6.0\proyectoef.genruntimeconfig.cache
 C:\Users\ricar\Documents\PooPlatzi\ParteDos\EntityFramework(EF)\proyectoef\obj\Debug\net6.0\ref\proyectoef.dll
+C:\Users\ricar\Documents\PooPlatzi\ParteDos\EntityFramework(EF)\proyectoef\bin\Debug\net6.0\Humanizer.dll
+C:\Users\ricar\Documents\PooPlatzi\ParteDos\EntityFramework(EF)\proyectoef\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
