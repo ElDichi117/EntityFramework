@@ -10,6 +10,7 @@ public class Categoria
     //Key es para la clave de esta tabla 
     [Key]
     public Guid CategoriaId {get;set;}
+    
     [Required]
     [MaxLength(150)]
     public string Nombre { get; set; }
