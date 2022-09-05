@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace proyectoef.Models;
 
@@ -18,5 +19,6 @@ public class Categoria
     public int Peso { get; set; }
 
     public string Descripcion { get; set; }
+    [JsonIgnore]//Al momento de retornar datos no trae la colección de tareas
     public virtual ICollection<Tarea> Tareas{ get; set; }
 }
